@@ -128,11 +128,32 @@
     width: 40px;
     position: absolute;
     z-index: 5;
-    top: 180px;
-    left: 350px;
+    top: 160px;
+    left: 345px;
     opacity: 50%;
 }
 .flag img{
 width: 40px;
 height: 40px;
+}
+.bore{
+    border-left: orange solid 3px;
+    border-right: green solid 3px;
+    border-top: green solid 3px ;
+    border-top-style: none;
+    margin: 3px;
+}
+.sun{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    z-index: 5;
+    right: 20px;
+    top: 10px;
+ 
+}
+.sun img{
+    height: 100%;
+    width: 100%;
+    
 }
