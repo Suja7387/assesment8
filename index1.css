@@ -1,0 +1,102 @@
+.parent{
+    margin-left: 250px;
+    
+}
+.one{
+background-color: green;
+height: 50px;
+width: 50px;
+margin: 10px;
+transition-duration: 4s;
+}
+.two{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    transition-duration: 5s;
+}
+.three{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    
+    
+}
+.four{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+   
+}
+.five{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    
+}
+.six{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+    
+}
+.seven{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    transition-duration: 5s;
+    transition-timing-function: ease-out;
+}
+.eight{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    transition-duration: 5s;
+}
+.one:hover{
+    width: 150px;
+}
+.two:hover{
+    width: 200px;
+    height: 200px;
+}
+.three:hover{
+    width: 200px;
+}
+.four:hover{
+    width: 200px;
+}
+.five:hover{
+    width: 200px;
+}
+.six:hover{
+    width: 200px;
+}
+.seven:hover{
+    width: 200px;
+}
+.eight:hover{
+    width: 200px;
+}
+
+body{
+    background-color: yellow;
+}
+a{
+    text-decoration: underline;
+}

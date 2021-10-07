@@ -1,0 +1,176 @@
+.parent1{
+ display: flex;
+ margin-left: 120px;
+}
+.parent2{
+    display: flex;
+     margin-left: 120px;
+}
+.parent3{
+    display: flex;
+   margin-left: 120px;
+}
+.parent4{
+    display: flex;
+   margin-left: 120px;
+}
+.one{
+    height: 50px;
+    width: 50px;
+    background-color: teal;
+    margin: 20px;
+animation-name: moving;
+animation-duration: 5s;
+animation-iteration-count: infinite; 
+animation-direction: alternate;
+   }
+.two{
+    height: 50px;
+    width: 50px;
+    background-color: teal;
+    margin: 20px;
+    animation-name: moving;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+.three{
+    height: 50px;
+    width: 50px;
+    background-color: teal;
+    margin: 20px;
+    animation-name: moving;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+.four{
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    margin: 20px;
+    animation-name: skew2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.five{
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    margin: 20px;
+    animation-name: skew2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.six{
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    margin: 20px;
+    animation-name: skew2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.seven{
+    height: 50px;
+    width: 50px;
+    background-color: teal;
+    margin: 20px;
+    animation-name: sujal;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+   
+}
+.eight{
+    height: 50px;
+    width: 50px;
+    background-color: teal;
+    margin: 20px;
+    animation-name: sujal;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.nine{
+    height: 50px;
+    width: 50px;
+    background-color: teal;
+    margin: 20px;
+    animation-name: sujal;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.ten{
+    height: 50px;
+    width: 50px;
+    background-color: teal;
+    margin: 20px;
+    animation-name: scale;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.eleven{
+    height: 50px;
+    width: 50px;
+    background-color: chocolate;
+    margin: 20px;
+    animation-name: scalex;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.twelve{
+    height: 50px;
+    width: 50px;
+    background-color:green;
+    margin: 20px;
+    animation-name: rotating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+body{
+    background-color: yellow;
+}
+@keyframes moving {
+   0%{
+        transform: skewX(20deg);
+    }
+    100%{
+        transform: skewX(-20deg);
+    }
+    
+}
+@keyframes sujal {
+    100%{
+       transform: rotate(360deg);
+    }
+}
+@keyframes scale {
+    100%{
+        transform: scaleY(1.5);
+    }
+}
+@keyframes scalex {
+    100%{
+        transform: scaleX(1.5);
+    }
+    
+}
+@keyframes rotating {
+    100%{
+        transform: rotate(-60deg);
+    }
+}
+@keyframes skew2 {
+    0%{
+        transform: skewY(-15deg);
+    }
+    100%{
+        transform: skewY(15deg);
+    }
+}
+a{
+    text-decoration: underline;
+    margin-left: 150px;
+}
